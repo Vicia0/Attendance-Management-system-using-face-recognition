@@ -66,7 +66,7 @@ def err_screen():
     tk.Label(
         sc1,
         text="Enrollment & Name required!!!",
-        fg="yellow",
+        fg="Teal",
         bg="black",
         font=("times", 20, " bold "),
     ).pack()
@@ -74,7 +74,7 @@ def err_screen():
         sc1,
         text="OK",
         command=del_sc1,
-        fg="yellow",
+        fg="Teal",
         bg="black",
         width=9,
         height=1,
@@ -99,15 +99,15 @@ l1 = tk.Label(window, image=logo1, bg="black",)
 l1.place(x=470, y=10)
 
 titl = tk.Label(
-    window, text="Smart College!!", bg="black", fg="green", font=("arial", 27),
+    window, text="African Leadership Univerity!!", bg="black", fg="Teal", font=("arial", 27),
 )
 titl.place(x=525, y=12)
 
 a = tk.Label(
     window,
-    text="Welcome to the Face Recognition Based/nAttendance Management System",
+    text="CS attendance Cohort 3",
     bg="black",
-    fg="yellow",
+    fg="Teal",
     bd=10,
     font=("arial", 35),
 )
@@ -151,7 +151,7 @@ def TakeImageUI():
         ImageUI,
         text="Enter the details",
         bg="black",
-        fg="yellow",
+        fg="Teal",
         bd=10,
         font=("arial", 24),
     )
@@ -164,7 +164,7 @@ def TakeImageUI():
         width=10,
         height=2,
         bg="black",
-        fg="yellow",
+        fg="Teal",
         bd=5,
         relief=RIDGE,
         font=("times new roman", 12),
@@ -176,7 +176,7 @@ def TakeImageUI():
         bd=5,
         validate="key",
         bg="black",
-        fg="yellow",
+        fg="Teal",
         relief=RIDGE,
         font=("times", 25, "bold"),
     )
@@ -190,7 +190,7 @@ def TakeImageUI():
         width=10,
         height=2,
         bg="black",
-        fg="yellow",
+        fg="Teal",
         bd=5,
         relief=RIDGE,
         font=("times new roman", 12),
@@ -201,7 +201,7 @@ def TakeImageUI():
         width=17,
         bd=5,
         bg="black",
-        fg="yellow",
+        fg="Teal",
         relief=RIDGE,
         font=("times", 25, "bold"),
     )
@@ -213,7 +213,7 @@ def TakeImageUI():
         width=10,
         height=2,
         bg="black",
-        fg="yellow",
+        fg="Teal",
         bd=5,
         relief=RIDGE,
         font=("times new roman", 12),
@@ -227,7 +227,7 @@ def TakeImageUI():
         height=2,
         bd=5,
         bg="black",
-        fg="yellow",
+        fg="Teal",
         relief=RIDGE,
         font=("times", 12, "bold"),
     )
@@ -257,7 +257,7 @@ def TakeImageUI():
         bd=10,
         font=("times new roman", 18),
         bg="black",
-        fg="yellow",
+        fg="Teal",
         height=2,
         width=12,
         relief=RIDGE,
@@ -281,7 +281,7 @@ def TakeImageUI():
         bd=10,
         font=("times new roman", 18),
         bg="black",
-        fg="yellow",
+        fg="Teal",
         height=2,
         width=12,
         relief=RIDGE,
@@ -296,7 +296,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="Teal",
     height=2,
     width=17,
 )
@@ -314,7 +314,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="Teal",
     height=2,
     width=17,
 )
@@ -332,7 +332,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="Teal",
     height=2,
     width=17,
 )
@@ -344,10 +344,10 @@ r = tk.Button(
     command=quit,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
-    height=2,
+    fg="Teal",
+    height=1,
     width=17,
 )
-r.place(x=600, y=660)
+r.place(x=600, y=625)
 
 window.mainloop()
