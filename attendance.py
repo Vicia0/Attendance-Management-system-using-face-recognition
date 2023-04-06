@@ -142,7 +142,7 @@ def TakeImageUI():
     titl.pack(fill=X)
     # image and title
     titl = tk.Label(
-        ImageUI, text="Register Your Face", bg="black", fg="green", font=("arial", 30),
+        ImageUI, text="Register Your Face", bg="black", fg="Teal", font=("arial", 30),
     )
     titl.place(x=270, y=12)
 
@@ -349,5 +349,6 @@ r = tk.Button(
     width=17,
 )
 r.place(x=600, y=625)
+
 
 window.mainloop()
